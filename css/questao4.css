@@ -1,0 +1,30 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    box-shadow: 1px 1px 10px 10px red;
+    border-radius: 50%;
+    background-color: black;
+    animation: Mover 4s infinite;
+}
+
+@keyframes Mover {
+    to{
+
+    }
+    from{
+        margin-right: 500px;
+    }
+    
+}

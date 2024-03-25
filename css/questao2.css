@@ -1,0 +1,21 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.quadrado:hover{
+    background-color: aqua;
+}

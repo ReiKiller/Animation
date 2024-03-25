@@ -1,0 +1,24 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    transition: transform 0.5s ease;
+}
+
+.circulo:hover{
+    background-color: aqua;
+    transform: scale(4);
+}

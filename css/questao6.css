@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  
+  .quadrado {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: Girar 5s linear infinite;
+  }
+  
+  @keyframes Girar {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+      background-color: pink;
+    }
+    12.5% {
+      background-color: red;
+    }
+    25% {
+      background-color: aqua;
+    }
+    37.5% {
+      background-color: orange;
+    }
+    50% {
+      background-color: yellow;
+    }
+    62.5% {
+      background-color: green;
+    }
+    75% {
+      background-color: brown;
+    }
+    87.5% {
+      background-color: blue;
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+      background-color: pink;
+    }
+  }
