@@ -1,0 +1,29 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 1px 1px 10px 10px red;
+    animation: pulsar 0.8s ease-in 3 ;
+}
+
+@keyframes pulsar{
+    to{
+        width: 350px;
+        height: 350px;
+    }
+    from{
+        width: 200px;
+        height: 200px;
+    }
+}
