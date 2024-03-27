@@ -1,0 +1,29 @@
+body{
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation: mover 3s forwards;
+}
+
+@keyframes mover {
+    from{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    to{
+        width: 70px;
+        height: 70px;
+        top: 0;
+        left: 0;
+    }
+}

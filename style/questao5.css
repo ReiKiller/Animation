@@ -15,15 +15,14 @@ body{
     border: 1px solid black;
     background-color: black;
     position: relative;
-    transform: translate(-50%,-50%);
     animation: Girar 3s linear;
 }
 
 @keyframes Girar {
-    to{
-        transform: translate(-50%,-50%) rotate(0deg);
-    }
     from{
-        transform: translate(-50%,-50%) rotate(45deg);
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(45deg);
     }
 }

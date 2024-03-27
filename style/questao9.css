@@ -14,7 +14,7 @@ body{
     border-radius: 50%;
     background-color: red;
     box-shadow: 1px 1px 10px 10px red;
-    animation: pulsar 0.8s alternate 3 ;
+    animation: pulsar 0.8s alternate infinite ;
 }
 
 @keyframes pulsar{

@@ -1,0 +1,50 @@
+body{
+    width: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-image: url(../assets/dinossauro.jpg);
+    background-size: cover;
+}
+
+form{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: gray;
+    animation: mover 1s forwards;
+}
+
+form input{
+    border: 2px solid black;
+    margin-bottom: 2px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form button{
+    margin-top: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+form button:hover{
+    background-color: cadetblue;
+}
+
+@keyframes mover {
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(50vh);
+    }
+}

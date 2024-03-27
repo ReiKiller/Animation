@@ -20,11 +20,11 @@ body{
 }
 
 @keyframes Mover {
-    to{
+    from{
 
     }
-    from{
-        margin-right: 500px;
+    to{
+        margin-left: 500px;
     }
     
 }
