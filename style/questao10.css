@@ -14,6 +14,22 @@ body{
     animation: mover 3s forwards;
 }
 
+
+    .b button{
+        background-color: aqua;
+        position: absolute;
+        left: 0;
+        margin: 20px;
+        border: 5px solid black;
+        border-radius: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .b button:hover{
+        cursor: pointer;
+    }
+
 @keyframes mover {
     from{
         top: 50%;

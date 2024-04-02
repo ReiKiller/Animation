@@ -18,8 +18,9 @@ button{
 }
 
 button:hover{
-    background-color: yellow;
+    background-color: red;
     transform: scale(1.5);
+    cursor: pointer;
 }
 .botoes{
     width: 500px;

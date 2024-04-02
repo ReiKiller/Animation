@@ -38,6 +38,22 @@ form button:hover{
     background-color: cadetblue;
 }
 
+.b button{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.b button:hover{
+    cursor: pointer;
+}
+
 @keyframes mover {
     0%{
         opacity: 0;

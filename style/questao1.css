@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -14,4 +15,20 @@ body{
     height: 200px;
     border: 1px solid black;
     background-color: black;
+}
+
+.b button{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.b button:hover{
+    cursor: pointer;
 }
