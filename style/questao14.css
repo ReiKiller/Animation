@@ -1,20 +1,25 @@
 body{
-    width: auto;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
+    height: 100vh;
     background-color: black;
 }
 
 .circulo{
     width: 200px;
     height: 200px;
-    border: 1px solid red;
+    border: 5px solid red;
     border-radius: 50%;
     background-color: red;
-    box-shadow: 1px 1px 10px 10px red;
-    animation: pulsar 1s alternate 6 ;
+}
+
+div.circulo:hover{
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    border-radius: 0%;
 }
 
 .b{
@@ -34,15 +39,4 @@ body{
 .b button:hover{
     cursor: pointer;
     background-color: lightgray;
-}
-
-@keyframes pulsar{
-    from{
-        width: 200px;
-        height: 200px;
-    }
-    to{
-        width: 350px;
-        height: 350px;
-    }
 }

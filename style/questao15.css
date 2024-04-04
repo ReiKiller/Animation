@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    height: 100vh;
+    background-color: black;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px white;
+    background-color: white;
+    animation: mov 4s linear 2s;
+}
+
+@keyframes mov{
+    0%{
+        transform: translateY(0%);
+    }
+    16.6%{
+        transform: translateY(170%);
+    }
+    33.2%{
+        transform: translateX(400%);
+    }
+    49.8%{
+        transform: translateY(-170%);
+    }
+    66.4%{
+        transform: translateX(-400%);
+    }
+    83%{
+        transform: translateY(170%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+.b{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.b button{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    font-size: 10px;
+}
+
+.b button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
