@@ -1,11 +1,14 @@
 body{
     background-color: black;
-    height: 1000px;  
-    width: auto;
+    height: 100vh;  
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
+    background-image: url(assets/menui.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px;
 }
 button{
     width: 40px;
@@ -24,15 +27,19 @@ button:hover{
 }
 .botoes{
     width: 500px;
-    height: 700px;
+    height: 600px;
     border: 1px solid white;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     box-shadow: 1px 1px 30px 10px rgb(59, 1, 59);
+    backdrop-filter: blur(5px);
 }
-.botoes h1{
+h1{
     color: white;
     padding: 30px;
+    position: absolute;
+    bottom: 800px;
+    text-shadow: red 0em 0em 0.5em 
 }
